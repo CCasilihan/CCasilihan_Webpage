@@ -1,4 +1,220 @@
 .App {
+  background-image: url('./images/sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.9);
+  height: 350vh; /* Adjust the height to cover the lower parts */
+  width: 100vw;
+}
+
+/* .App {
+  background-image: url('./images/sky.jpg'), 
+                    url('./images/Bike.jpg'), 
+                    url('./images/Vball.jpg'), 
+                    url('./images/car.jpg'), 
+                    url('./images/lambo.jpeg'), 
+                    url('./images/swim.jpg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.9);
+  height: 100vh;
+  width: 100vw;
+} */ 
+
+
+
+.black {
+  background-color: black; /* This is a sky blue color */
+}
+
+
+
+/* .Home {
+  background-image: url('./images/swim.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.9);
+  height: 100vh;
+  width: 100vw;
+} */
+
+/* * {
+  margin: 0;s
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url('./images/street.gif');
+  background-size: cover; */
+  /* font-family: Arial, Helvetica, sans-serif;
+} */ 
+
+/* .hero {
+  display: flex;
+  height: 100vh;
+  padding-top: 5px; */
+  /* background-image: url('./images/street.gif'); */
+  /* background-size: cover; */
+  /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.9); */
+  /* min-width: 1024px;
+} */
+
+
+.aboutshero{
+  /* display: flex; */
+  height: 100vh;
+  /* width: 1200px; */
+  /* background-color: white; */
+  background-image: url('./images/swim.jpg');
+  background-size: cover;
+  /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7); */
+  /* min-width: 1024px; */
+
+}
+
+.educationshero{
+  /* display: flex; */
+  height: 100vh;
+  /* width: 1200px; */
+  /* background-color: white; */
+  background-image: url('./images/car.jpg');
+  background-size: cover;
+  /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7); */
+  min-width: 1024px;
+}
+
+.contactshero{
+  display: flex;
+  height: 100vh;
+  /* width: 1200px; */
+  /* background-color: white; */
+   /* background-image: url('./images/Vball.jpg'); */
+  /* background-size: cover; */
+  /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7);  */
+  /* min-width: 1024px; */
+
+}
+
+.content{
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 56px;
+  /* font-weight: bolder; */
+  color: white;
+}
+
+.content p{
+  font-size: 22px;
+  margin: 15px 0;
+  max-width: 550;
+  letter-spacing: 2px;
+  color: white;
+  /* text-anchor: green; */
+}
+
+
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+/* *.content{
+
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 56px;
+  
+  color: black;
+}
+
+.content p{
+  font-size: 22px;
+  margin: 15px 0;
+  max-width: 550;
+  letter-spacing: 2px;
+  color: black;
+  
+}
+
+
+
+
+.App {
   text-align: center;
 }
 
@@ -36,3 +252,4 @@
     transform: rotate(360deg);
   }
 }
+ */
